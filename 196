@@ -1,0 +1,369 @@
+local castle_library = {}
+function castle_library.build_pair()
+local t = {
+["1"] = {x = {}, y = {},name = {}, meta = {}},
+["2"] = {x = {}, y = {},name = {}, meta = {}},
+["3"] = {x = {}, y = {},name = {}, meta = {}},
+["4"] = {x = {}, y = {},name = {}, meta = {}},
+["5"] = {x = {}, y = {},name = {}, meta = {}},
+["6"] = {x = {}, y = {},name = {}, meta = {}},
+["7"] = {x = {}, y = {},name = {}, meta = {}},
+["8"] = {x = {}, y = {},name = {}, meta = {}},
+["9"] = {x = {}, y = {},name = {}, meta = {}},
+["10"] = {x = {}, y = {},name = {}, meta = {}},
+["11"] = {x = {}, y = {},name = {}, meta = {}},
+["12"] = {x = {}, y = {},name = {}, meta = {}},
+["13"] = {x = {}, y = {},name = {}, meta = {}},
+["14"] = {x = {}, y = {},name = {}, meta = {}},
+["15"] = {x = {}, y = {},name = {}, meta = {}},
+["16"] = {x = {}, y = {},name = {}, meta = {}},
+["17"] = {x = {}, y = {},name = {}, meta = {}},
+["18"] = {x = {}, y = {},name = {}, meta = {}},
+["19"] = {x = {}, y = {},name = {}, meta = {}},
+["20"] = {x = {}, y = {},name = {}, meta = {}},
+["21"] = {x = {}, y = {},name = {}, meta = {}},
+["22"] = {x = {}, y = {},name = {}, meta = {}},
+["23"] = {x = {}, y = {},name = {}, meta = {}},
+["24"] = {x = {}, y = {},name = {}, meta = {}},
+["25"] = {x = {}, y = {},name = {}, meta = {}},
+["26"] = {x = {}, y = {},name = {}, meta = {}},
+["27"] = {x = {}, y = {},name = {}, meta = {}},
+["28"] = {x = {}, y = {},name = {}, meta = {}},
+["29"] = {x = {}, y = {},name = {}, meta = {}},
+["30"] = {x = {}, y = {},name = {}, meta = {}},
+["31"] = {x = {}, y = {},name = {}, meta = {}},
+["32"] = {x = {}, y = {},name = {}, meta = {}},
+["33"] = {x = {}, y = {},name = {}, meta = {}},
+["34"] = {x = {}, y = {},name = {}, meta = {}},
+["35"] = {x = {}, y = {},name = {}, meta = {}},
+["36"] = {x = {}, y = {},name = {}, meta = {}},
+["37"] = {x = {}, y = {},name = {}, meta = {}},
+["38"] = {x = {}, y = {},name = {}, meta = {}},
+["39"] = {x = {}, y = {},name = {}, meta = {}},
+["40"] = {x = {}, y = {},name = {}, meta = {}},
+["41"] = {x = {}, y = {},name = {}, meta = {}},
+["42"] = {x = {}, y = {},name = {}, meta = {}},
+["43"] = {x = {}, y = {},name = {}, meta = {}},
+["44"] = {x = {}, y = {},name = {}, meta = {}},
+["45"] = {x = {}, y = {},name = {}, meta = {}},
+["46"] = {x = {}, y = {},name = {}, meta = {}},
+["47"] = {x = {}, y = {},name = {}, meta = {}},
+["48"] = {x = {}, y = {},name = {}, meta = {}},
+["49"] = {x = {}, y = {},name = {}, meta = {}},
+["50"] = {x = {}, y = {},name = {}, meta = {}},
+["51"] = {x = {}, y = {},name = {}, meta = {}},
+["52"] = {x = {}, y = {},name = {}, meta = {}},
+["53"] = {x = {}, y = {},name = {}, meta = {}},
+["54"] = {x = {}, y = {},name = {}, meta = {}},
+["55"] = {x = {}, y = {},name = {}, meta = {}},
+["56"] = {x = {}, y = {},name = {}, meta = {}},
+["57"] = {x = {}, y = {},name = {}, meta = {}},
+["58"] = {x = {}, y = {},name = {}, meta = {}},
+["59"] = {x = {}, y = {},name = {}, meta = {}},
+["60"] = {x = {}, y = {},name = {}, meta = {}},
+["61"] = {x = {}, y = {},name = {}, meta = {}},
+["62"] = {x = {}, y = {},name = {}, meta = {}},
+["63"] = {x = {}, y = {},name = {}, meta = {}},
+["64"] = {x = {}, y = {},name = {}, meta = {}},
+["65"] = {x = {}, y = {},name = {}, meta = {}},
+["66"] = {x = {}, y = {},name = {}, meta = {}},
+["67"] = {x = {}, y = {},name = {}, meta = {}},
+["68"] = {x = {}, y = {},name = {}, meta = {}},
+["69"] = {x = {}, y = {},name = {}, meta = {}},
+["70"] = {x = {}, y = {},name = {}, meta = {}},
+["71"] = {x = {}, y = {},name = {}, meta = {}},
+["72"] = {x = {}, y = {},name = {}, meta = {}},
+["73"] = {x = {}, y = {},name = {}, meta = {}},
+["74"] = {x = {}, y = {},name = {}, meta = {}},
+["75"] = {x = {}, y = {},name = {}, meta = {}},
+["76"] = {x = {}, y = {},name = {}, meta = {}},
+["77"] = {x = {}, y = {},name = {}, meta = {}},
+["78"] = {x = {}, y = {},name = {}, meta = {}},
+["79"] = {x = {}, y = {},name = {}, meta = {}},
+["80"] = {x = {}, y = {},name = {}, meta = {}},
+["81"] = {x = {}, y = {},name = {}, meta = {}},
+["82"] = {x = {}, y = {},name = {}, meta = {}},
+["83"] = {x = {}, y = {},name = {}, meta = {}},
+["84"] = {x = {}, y = {},name = {}, meta = {}},
+["85"] = {x = {}, y = {},name = {}, meta = {}},
+["86"] = {x = {}, y = {},name = {}, meta = {}},
+["87"] = {x = {}, y = {},name = {}, meta = {}},
+["88"] = {x = {}, y = {},name = {}, meta = {}},
+["89"] = {x = {}, y = {},name = {}, meta = {}},
+["90"] = {x = {}, y = {},name = {}, meta = {}},
+["91"] = {x = {}, y = {},name = {}, meta = {}},
+["92"] = {x = {}, y = {},name = {}, meta = {}},
+["93"] = {x = {}, y = {},name = {}, meta = {}},
+["94"] = {x = {}, y = {},name = {}, meta = {}},
+["95"] = {x = {}, y = {},name = {}, meta = {}},
+["96"] = {x = {}, y = {},name = {}, meta = {}},
+["97"] = {x = {}, y = {},name = {}, meta = {}},
+["98"] = {x = {}, y = {},name = {}, meta = {}},
+["99"] = {x = {}, y = {},name = {}, meta = {}},
+["100"] = {x = {}, y = {},name = {}, meta = {}},
+["101"] = {x = {}, y = {},name = {}, meta = {}},
+["102"] = {x = {}, y = {},name = {}, meta = {}},
+["103"] = {x = {}, y = {},name = {}, meta = {}},
+["104"] = {x = {}, y = {},name = {}, meta = {}},
+["105"] = {x = {}, y = {},name = {}, meta = {}},
+["106"] = {x = {}, y = {},name = {}, meta = {}},
+["107"] = {x = {}, y = {},name = {}, meta = {}},
+["108"] = {x = {}, y = {},name = {}, meta = {}},
+["109"] = {x = {}, y = {},name = {}, meta = {}},
+["110"] = {x = {}, y = {},name = {}, meta = {}},
+["111"] = {x = {}, y = {},name = {}, meta = {}},
+["112"] = {x = {}, y = {},name = {}, meta = {}},
+["113"] = {x = {}, y = {},name = {}, meta = {}},
+["114"] = {x = {}, y = {},name = {}, meta = {}},
+["115"] = {x = {}, y = {},name = {}, meta = {}},
+["116"] = {x = {}, y = {},name = {}, meta = {}},
+["117"] = {x = {}, y = {},name = {}, meta = {}},
+["118"] = {x = {}, y = {},name = {}, meta = {}},
+["119"] = {x = {}, y = {},name = {}, meta = {}},
+["120"] = {x = {}, y = {},name = {}, meta = {}},
+["121"] = {x = {}, y = {},name = {}, meta = {}},
+["122"] = {x = {}, y = {},name = {}, meta = {}},
+["123"] = {x = {}, y = {},name = {}, meta = {}},
+["124"] = {x = {}, y = {},name = {}, meta = {}},
+["125"] = {x = {}, y = {},name = {}, meta = {}},
+["126"] = {x = {}, y = {},name = {}, meta = {}},
+["127"] = {x = {}, y = {},name = {}, meta = {}},
+["128"] = {x = {}, y = {},name = {}, meta = {}},
+["129"] = {x = {}, y = {},name = {}, meta = {}},
+["130"] = {x = {}, y = {},name = {}, meta = {}},
+["131"] = {x = {}, y = {},name = {}, meta = {}},
+["132"] = {x = {}, y = {},name = {}, meta = {}},
+["133"] = {x = {}, y = {},name = {}, meta = {}},
+["134"] = {x = {}, y = {},name = {}, meta = {}},
+["135"] = {x = {}, y = {},name = {}, meta = {}},
+["136"] = {x = {}, y = {},name = {}, meta = {}},
+["137"] = {x = {}, y = {},name = {}, meta = {}},
+["138"] = {x = {}, y = {},name = {}, meta = {}},
+["139"] = {x = {}, y = {},name = {}, meta = {}},
+["140"] = {x = {}, y = {},name = {}, meta = {}},
+["141"] = {x = {}, y = {},name = {}, meta = {}},
+["142"] = {x = {}, y = {},name = {}, meta = {}},
+["143"] = {x = {}, y = {},name = {}, meta = {}},
+["144"] = {x = {}, y = {},name = {}, meta = {}},
+["145"] = {x = {}, y = {},name = {}, meta = {}},
+["146"] = {x = {}, y = {},name = {}, meta = {}},
+["147"] = {x = {}, y = {},name = {}, meta = {}},
+["148"] = {x = {}, y = {},name = {}, meta = {}},
+["149"] = {x = {}, y = {},name = {}, meta = {}},
+["150"] = {x = {}, y = {},name = {}, meta = {}},
+["151"] = {x = {}, y = {},name = {}, meta = {}},
+["152"] = {x = {}, y = {},name = {}, meta = {}},
+["153"] = {x = {}, y = {},name = {}, meta = {}},
+["154"] = {x = {}, y = {},name = {}, meta = {}},
+["155"] = {x = {}, y = {},name = {}, meta = {}},
+["156"] = {x = {}, y = {},name = {}, meta = {}},
+["157"] = {x = {}, y = {},name = {}, meta = {}},
+["158"] = {x = {}, y = {},name = {}, meta = {}},
+["159"] = {x = {}, y = {},name = {}, meta = {}},
+["160"] = {x = {}, y = {},name = {}, meta = {}},
+["161"] = {x = {}, y = {},name = {}, meta = {}},
+["162"] = {x = {}, y = {},name = {}, meta = {}},
+["163"] = {x = {}, y = {},name = {}, meta = {}},
+["164"] = {x = {}, y = {},name = {}, meta = {}},
+["165"] = {x = {}, y = {},name = {}, meta = {}},
+["166"] = {x = {}, y = {},name = {}, meta = {}},
+["167"] = {x = {}, y = {},name = {}, meta = {}},
+["168"] = {x = {}, y = {},name = {}, meta = {}},
+["169"] = {x = {}, y = {},name = {}, meta = {}},
+["170"] = {x = {}, y = {},name = {}, meta = {}},
+["171"] = {x = {}, y = {},name = {}, meta = {}},
+["172"] = {x = {}, y = {},name = {}, meta = {}},
+["173"] = {x = {}, y = {},name = {}, meta = {}},
+["174"] = {x = {}, y = {},name = {}, meta = {}},
+["175"] = {x = {}, y = {},name = {}, meta = {}},
+["176"] = {x = {}, y = {},name = {}, meta = {}},
+["177"] = {x = {}, y = {},name = {}, meta = {}},
+["178"] = {x = {}, y = {},name = {}, meta = {}},
+["179"] = {x = {}, y = {},name = {}, meta = {}},
+["180"] = {x = {}, y = {},name = {}, meta = {}},
+["181"] = {x = {}, y = {},name = {}, meta = {}},
+["182"] = {x = {}, y = {},name = {}, meta = {}},
+["183"] = {x = {}, y = {},name = {}, meta = {}},
+["184"] = {x = {}, y = {},name = {}, meta = {}},
+["185"] = {x = {}, y = {},name = {}, meta = {}},
+["186"] = {x = {}, y = {},name = {}, meta = {}},
+["187"] = {x = {}, y = {},name = {}, meta = {}},
+["188"] = {x = {}, y = {},name = {}, meta = {}},
+["189"] = {x = {}, y = {},name = {}, meta = {}},
+["190"] = {x = {}, y = {},name = {}, meta = {}},
+["191"] = {x = {}, y = {},name = {}, meta = {}},
+["192"] = {x = {}, y = {},name = {}, meta = {}},
+["193"] = {x = {}, y = {},name = {}, meta = {}},
+["194"] = {x = {}, y = {},name = {}, meta = {}},
+["195"] = {x = {}, y = {},name = {}, meta = {}},
+["196"] = {x = {}, y = {},name = {}, meta = {}},
+["197"] = {x = {}, y = {},name = {}, meta = {}},
+["198"] = {x = {}, y = {},name = {}, meta = {}},
+["199"] = {x = {}, y = {},name = {}, meta = {}},
+["200"] = {x = {}, y = {},name = {}, meta = {}},
+["201"] = {x = {}, y = {},name = {}, meta = {}},
+["202"] = {x = {}, y = {},name = {}, meta = {}},
+["203"] = {x = {}, y = {},name = {}, meta = {}},
+["204"] = {x = {}, y = {},name = {}, meta = {}},
+["205"] = {x = {}, y = {},name = {}, meta = {}},
+["206"] = {x = {}, y = {},name = {}, meta = {}},
+["207"] = {x = {}, y = {},name = {}, meta = {}},
+["208"] = {x = {}, y = {},name = {}, meta = {}},
+["209"] = {x = {}, y = {},name = {}, meta = {}},
+["210"] = {x = {}, y = {},name = {}, meta = {}},
+["211"] = {x = {}, y = {},name = {}, meta = {}}}
+
+t["1"].x[1] = 1; t["1"].y[1] = 3; t["1"].name[1] = "minecraft:stone_brick_stairs"; t["1"].meta[1] = 2
+t["1"].x[2] = 1; t["1"].y[2] = 4; t["1"].name[2] = "minecraft:stonebrick"; t["1"].meta[2] = 0
+t["1"].x[3] = 1; t["1"].y[3] = 5; t["1"].name[3] = "minecraft:quartz_block"; t["1"].meta[3] = 0
+t["1"].x[4] = 1; t["1"].y[4] = 6; t["1"].name[4] = "minecraft:stonebrick"; t["1"].meta[4] = 0
+t["1"].x[5] = 1; t["1"].y[5] = 7; t["1"].name[5] = "minecraft:stone_brick_stairs"; t["1"].meta[5] = 3
+t["1"].x[6] = 2; t["1"].y[6] = 3; t["1"].name[6] = "minecraft:stone_brick_stairs"; t["1"].meta[6] = 2
+t["1"].x[7] = 2; t["1"].y[7] = 4; t["1"].name[7] = "minecraft:stonebrick"; t["1"].meta[7] = 0
+t["1"].x[8] = 2; t["1"].y[8] = 5; t["1"].name[8] = "minecraft:stonebrick"; t["1"].meta[8] = 0
+t["1"].x[9] = 2; t["1"].y[9] = 6; t["1"].name[9] = "minecraft:stonebrick"; t["1"].meta[9] = 0
+t["1"].x[10] = 2; t["1"].y[10] = 7; t["1"].name[10] = "minecraft:stone_brick_stairs"; t["1"].meta[10] = 3
+t["1"].x[11] = 3; t["1"].y[11] = 3; t["1"].name[11] = "minecraft:stone_brick_stairs"; t["1"].meta[11] = 1
+t["1"].x[12] = 3; t["1"].y[12] = 4; t["1"].name[12] = "minecraft:stone_brick_stairs"; t["1"].meta[12] = 1
+t["1"].x[13] = 3; t["1"].y[13] = 5; t["1"].name[13] = "minecraft:stone_brick_stairs"; t["1"].meta[13] = 1
+t["1"].x[14] = 3; t["1"].y[14] = 6; t["1"].name[14] = "minecraft:stone_brick_stairs"; t["1"].meta[14] = 1
+t["1"].x[15] = 3; t["1"].y[15] = 7; t["1"].name[15] = "minecraft:stone_brick_stairs"; t["1"].meta[15] = 3
+t["2"].x[1] = 1; t["2"].y[1] = 4; t["2"].name[1] = "minecraft:stone_brick_stairs"; t["2"].meta[1] = 6
+t["2"].x[2] = 1; t["2"].y[2] = 5; t["2"].name[2] = "minecraft:quartz_block"; t["2"].meta[2] = 0
+t["2"].x[3] = 1; t["2"].y[3] = 6; t["2"].name[3] = "minecraft:stone_brick_stairs"; t["2"].meta[3] = 7
+t["2"].x[4] = 2; t["2"].y[4] = 4; t["2"].name[4] = "minecraft:stone_brick_stairs"; t["2"].meta[4] = 6
+t["2"].x[5] = 2; t["2"].y[5] = 5; t["2"].name[5] = "minecraft:stone_brick_stairs"; t["2"].meta[5] = 5
+t["2"].x[6] = 2; t["2"].y[6] = 6; t["2"].name[6] = "minecraft:stone_brick_stairs"; t["2"].meta[6] = 7
+t["3"].x[1] = 1; t["3"].y[1] = 5; t["3"].name[1] = "minecraft:quartz_block"; t["3"].meta[1] = 0
+t["3"].x[2] = 2; t["3"].y[2] = 4; t["3"].name[2] = "minecraft:cobblestone_wall"; t["3"].meta[2] = 0
+t["3"].x[3] = 2; t["3"].y[3] = 6; t["3"].name[3] = "minecraft:cobblestone_wall"; t["3"].meta[3] = 0
+t["4"].x[1] = 1; t["4"].y[1] = 5; t["4"].name[1] = "minecraft:quartz_block"; t["4"].meta[1] = 0
+t["4"].x[2] = 2; t["4"].y[2] = 4; t["4"].name[2] = "minecraft:cobblestone_wall"; t["4"].meta[2] = 0
+t["4"].x[3] = 2; t["4"].y[3] = 6; t["4"].name[3] = "minecraft:cobblestone_wall"; t["4"].meta[3] = 0
+t["5"].x[1] = 1; t["5"].y[1] = 5; t["5"].name[1] = "minecraft:quartz_block"; t["5"].meta[1] = 0
+t["5"].x[2] = 2; t["5"].y[2] = 4; t["5"].name[2] = "minecraft:cobblestone_wall"; t["5"].meta[2] = 0
+t["5"].x[3] = 2; t["5"].y[3] = 6; t["5"].name[3] = "minecraft:cobblestone_wall"; t["5"].meta[3] = 0
+t["6"].x[1] = 1; t["6"].y[1] = 5; t["6"].name[1] = "minecraft:quartz_block"; t["6"].meta[1] = 0
+t["6"].x[2] = 2; t["6"].y[2] = 4; t["6"].name[2] = "minecraft:cobblestone_wall"; t["6"].meta[2] = 0
+t["6"].x[3] = 2; t["6"].y[3] = 6; t["6"].name[3] = "minecraft:cobblestone_wall"; t["6"].meta[3] = 0
+t["7"].x[1] = 1; t["7"].y[1] = 5; t["7"].name[1] = "minecraft:glowstone"; t["7"].meta[1] = 0
+t["7"].x[2] = 2; t["7"].y[2] = 4; t["7"].name[2] = "minecraft:cobblestone_wall"; t["7"].meta[2] = 0
+t["7"].x[3] = 2; t["7"].y[3] = 6; t["7"].name[3] = "minecraft:cobblestone_wall"; t["7"].meta[3] = 0
+t["8"].x[1] = 1; t["8"].y[1] = 5; t["8"].name[1] = "minecraft:quartz_block"; t["8"].meta[1] = 0
+t["8"].x[2] = 2; t["8"].y[2] = 4; t["8"].name[2] = "minecraft:cobblestone_wall"; t["8"].meta[2] = 0
+t["8"].x[3] = 2; t["8"].y[3] = 5; t["8"].name[3] = "minecraft:stone_brick_stairs"; t["8"].meta[3] = 5
+t["8"].x[4] = 2; t["8"].y[4] = 6; t["8"].name[4] = "minecraft:cobblestone_wall"; t["8"].meta[4] = 0
+t["9"].x[1] = 1; t["9"].y[1] = 4; t["9"].name[1] = "minecraft:stone_brick_stairs"; t["9"].meta[1] = 2
+t["9"].x[2] = 1; t["9"].y[2] = 5; t["9"].name[2] = "minecraft:quartz_block"; t["9"].meta[2] = 0
+t["9"].x[3] = 1; t["9"].y[3] = 6; t["9"].name[3] = "minecraft:stone_brick_stairs"; t["9"].meta[3] = 3
+t["9"].x[4] = 2; t["9"].y[4] = 4; t["9"].name[4] = "minecraft:stone_brick_stairs"; t["9"].meta[4] = 1
+t["9"].x[5] = 2; t["9"].y[5] = 5; t["9"].name[5] = "minecraft:stone_brick_stairs"; t["9"].meta[5] = 1
+t["9"].x[6] = 2; t["9"].y[6] = 6; t["9"].name[6] = "minecraft:stone_brick_stairs"; t["9"].meta[6] = 3
+t["10"].x[1] = 1; t["10"].y[1] = 5; t["10"].name[1] = "minecraft:stonebrick"; t["10"].meta[1] = 2
+t["11"].x[1] = 1; t["11"].y[1] = 5; t["11"].name[1] = "minecraft:cobblestone_wall"; t["11"].meta[1] = 0
+t["12"].x[1] = 1; t["12"].y[1] = 5; t["12"].name[1] = "minecraft:cobblestone_wall"; t["12"].meta[1] = 0
+t["13"].x[1] = 1; t["13"].y[1] = 5; t["13"].name[1] = "minecraft:cobblestone_wall"; t["13"].meta[1] = 0
+t["14"].x[1] = 1; t["14"].y[1] = 5; t["14"].name[1] = "minecraft:cobblestone_wall"; t["14"].meta[1] = 0
+t["15"].x[1] = 1; t["15"].y[1] = 5; t["15"].name[1] = "minecraft:cobblestone_wall"; t["15"].meta[1] = 0
+t["16"].x[1] = 1; t["16"].y[1] = 5; t["16"].name[1] = "minecraft:cobblestone_wall"; t["16"].meta[1] = 0
+t["17"].x[1] = 1; t["17"].y[1] = 5; t["17"].name[1] = "minecraft:cobblestone_wall"; t["17"].meta[1] = 0
+t["18"].x[1] = 1; t["18"].y[1] = 5; t["18"].name[1] = "minecraft:cobblestone_wall"; t["18"].meta[1] = 0
+t["19"].x[1] = 1; t["19"].y[1] = 5; t["19"].name[1] = "minecraft:cobblestone_wall"; t["19"].meta[1] = 0
+t["20"].x[1] = 1; t["20"].y[1] = 5; t["20"].name[1] = "minecraft:cobblestone_wall"; t["20"].meta[1] = 0
+t["21"].x[1] = 1; t["21"].y[1] = 5; t["21"].name[1] = "minecraft:cobblestone_wall"; t["21"].meta[1] = 0
+t["22"].x[1] = 1; t["22"].y[1] = 5; t["22"].name[1] = "minecraft:cobblestone_wall"; t["22"].meta[1] = 0
+t["23"].x[1] = 1; t["23"].y[1] = 5; t["23"].name[1] = "minecraft:cobblestone_wall"; t["23"].meta[1] = 0
+t["24"].x[1] = 1; t["24"].y[1] = 5; t["24"].name[1] = "minecraft:cobblestone_wall"; t["24"].meta[1] = 0
+t["25"].x[1] = 1; t["25"].y[1] = 5; t["25"].name[1] = "minecraft:cobblestone_wall"; t["25"].meta[1] = 0
+t["26"].x[1] = 1; t["26"].y[1] = 0; t["26"].name[1] = "minecraft:stone_brick_stairs"; t["26"].meta[1] = 1
+t["26"].x[2] = 1; t["26"].y[2] = 1; t["26"].name[2] = "minecraft:stone_brick_stairs"; t["26"].meta[2] = 5
+t["26"].x[3] = 1; t["26"].y[3] = 2; t["26"].name[3] = "minecraft:stone_brick_stairs"; t["26"].meta[3] = 1
+t["26"].x[4] = 1; t["26"].y[4] = 3; t["26"].name[4] = "minecraft:stone_brick_stairs"; t["26"].meta[4] = 5
+t["26"].x[5] = 1; t["26"].y[5] = 4; t["26"].name[5] = "minecraft:stone_brick_stairs"; t["26"].meta[5] = 1
+t["26"].x[6] = 1; t["26"].y[6] = 5; t["26"].name[6] = "minecraft:stone_brick_stairs"; t["26"].meta[6] = 5
+t["26"].x[7] = 1; t["26"].y[7] = 6; t["26"].name[7] = "minecraft:stone_brick_stairs"; t["26"].meta[7] = 1
+t["26"].x[8] = 1; t["26"].y[8] = 7; t["26"].name[8] = "minecraft:stone_brick_stairs"; t["26"].meta[8] = 5
+t["26"].x[9] = 1; t["26"].y[9] = 8; t["26"].name[9] = "minecraft:stone_brick_stairs"; t["26"].meta[9] = 1
+t["26"].x[10] = 1; t["26"].y[10] = 9; t["26"].name[10] = "minecraft:stone_brick_stairs"; t["26"].meta[10] = 5
+t["26"].x[11] = 1; t["26"].y[11] = 10; t["26"].name[11] = "minecraft:stone_brick_stairs"; t["26"].meta[11] = 1
+t["26"].x[12] = 1; t["26"].y[12] = 11; t["26"].name[12] = "minecraft:stone_brick_stairs"; t["26"].meta[12] = 5
+t["26"].x[13] = 1; t["26"].y[13] = 12; t["26"].name[13] = "minecraft:stone_brick_stairs"; t["26"].meta[13] = 1
+t["26"].x[14] = 1; t["26"].y[14] = 13; t["26"].name[14] = "minecraft:stone_brick_stairs"; t["26"].meta[14] = 5
+t["26"].x[15] = 1; t["26"].y[15] = 14; t["26"].name[15] = "minecraft:stone_brick_stairs"; t["26"].meta[15] = 1
+t["26"].x[16] = 1; t["26"].y[16] = 15; t["26"].name[16] = "minecraft:stone_brick_stairs"; t["26"].meta[16] = 5
+t["27"].x[1] = 1; t["27"].y[1] = 1; t["27"].name[1] = "minecraft:anvil"; t["27"].meta[1] = 0
+t["27"].x[2] = 1; t["27"].y[2] = 3; t["27"].name[2] = "minecraft:anvil"; t["27"].meta[2] = 0
+t["27"].x[3] = 1; t["27"].y[3] = 5; t["27"].name[3] = "minecraft:anvil"; t["27"].meta[3] = 0
+t["27"].x[4] = 1; t["27"].y[4] = 7; t["27"].name[4] = "minecraft:anvil"; t["27"].meta[4] = 0
+t["27"].x[5] = 1; t["27"].y[5] = 9; t["27"].name[5] = "minecraft:anvil"; t["27"].meta[5] = 0
+t["27"].x[6] = 1; t["27"].y[6] = 11; t["27"].name[6] = "minecraft:anvil"; t["27"].meta[6] = 0
+t["27"].x[7] = 1; t["27"].y[7] = 13; t["27"].name[7] = "minecraft:anvil"; t["27"].meta[7] = 0
+t["27"].x[8] = 1; t["27"].y[8] = 15; t["27"].name[8] = "minecraft:anvil"; t["27"].meta[8] = 0
+t["28"].x[1] = 1; t["28"].y[1] = 1; t["28"].name[1] = "minecraft:stone_slab"; t["28"].meta[1] = 5
+t["28"].x[2] = 1; t["28"].y[2] = 3; t["28"].name[2] = "minecraft:stone_slab"; t["28"].meta[2] = 5
+t["28"].x[3] = 1; t["28"].y[3] = 5; t["28"].name[3] = "minecraft:stone_slab"; t["28"].meta[3] = 5
+t["28"].x[4] = 1; t["28"].y[4] = 7; t["28"].name[4] = "minecraft:stone_slab"; t["28"].meta[4] = 5
+t["28"].x[5] = 1; t["28"].y[5] = 9; t["28"].name[5] = "minecraft:stone_slab"; t["28"].meta[5] = 5
+t["28"].x[6] = 1; t["28"].y[6] = 11; t["28"].name[6] = "minecraft:stone_slab"; t["28"].meta[6] = 5
+t["28"].x[7] = 1; t["28"].y[7] = 13; t["28"].name[7] = "minecraft:stone_slab"; t["28"].meta[7] = 5
+t["28"].x[8] = 1; t["28"].y[8] = 15; t["28"].name[8] = "minecraft:stone_slab"; t["28"].meta[8] = 5
+t["53"].x[1] = 1; t["53"].y[1] = 4; t["53"].name[1] = "minecraft:stone_brick_stairs"; t["53"].meta[1] = 6
+t["53"].x[2] = 1; t["53"].y[2] = 5; t["53"].name[2] = "minecraft:stone_brick_stairs"; t["53"].meta[2] = 5
+t["53"].x[3] = 1; t["53"].y[3] = 6; t["53"].name[3] = "minecraft:stone_brick_stairs"; t["53"].meta[3] = 7
+t["53"].x[4] = 2; t["53"].y[4] = 4; t["53"].name[4] = "minecraft:stone_slab"; t["53"].meta[4] = 13
+t["53"].x[5] = 2; t["53"].y[5] = 6; t["53"].name[5] = "minecraft:stone_slab"; t["53"].meta[5] = 13
+t["53"].x[6] = 3; t["53"].y[6] = 4; t["53"].name[6] = "minecraft:stone_slab"; t["53"].meta[6] = 13
+t["53"].x[7] = 3; t["53"].y[7] = 6; t["53"].name[7] = "minecraft:stone_slab"; t["53"].meta[7] = 13
+t["54"].x[1] = 1; t["54"].y[1] = 4; t["54"].name[1] = "minecraft:stonebrick"; t["54"].meta[1] = 0
+t["54"].x[2] = 1; t["54"].y[2] = 5; t["54"].name[2] = "minecraft:cobblestone_wall"; t["54"].meta[2] = 0
+t["54"].x[3] = 1; t["54"].y[3] = 6; t["54"].name[3] = "minecraft:stonebrick"; t["54"].meta[3] = 0
+t["54"].x[4] = 2; t["54"].y[4] = 4; t["54"].name[4] = "minecraft:stone_brick_stairs"; t["54"].meta[4] = 1
+t["54"].x[5] = 2; t["54"].y[5] = 6; t["54"].name[5] = "minecraft:stone_brick_stairs"; t["54"].meta[5] = 1
+t["55"].x[1] = 1; t["55"].y[1] = 4; t["55"].name[1] = "minecraft:stonebrick"; t["55"].meta[1] = 0
+t["55"].x[2] = 1; t["55"].y[2] = 5; t["55"].name[2] = "minecraft:cobblestone_wall"; t["55"].meta[2] = 0
+t["55"].x[3] = 1; t["55"].y[3] = 6; t["55"].name[3] = "minecraft:stonebrick"; t["55"].meta[3] = 0
+t["56"].x[1] = 1; t["56"].y[1] = 4; t["56"].name[1] = "minecraft:stone_brick_stairs"; t["56"].meta[1] = 2
+t["56"].x[2] = 1; t["56"].y[2] = 5; t["56"].name[2] = "minecraft:cobblestone_wall"; t["56"].meta[2] = 0
+t["56"].x[3] = 1; t["56"].y[3] = 6; t["56"].name[3] = "minecraft:stone_brick_stairs"; t["56"].meta[3] = 3
+t["57"].x[1] = 1; t["57"].y[1] = 4; t["57"].name[1] = "minecraft:stone_brick_stairs"; t["57"].meta[1] = 6
+t["57"].x[2] = 1; t["57"].y[2] = 5; t["57"].name[2] = "minecraft:stonebrick"; t["57"].meta[2] = 3
+t["57"].x[3] = 1; t["57"].y[3] = 6; t["57"].name[3] = "minecraft:stone_brick_stairs"; t["57"].meta[3] = 7
+t["57"].x[4] = 2; t["57"].y[4] = 4; t["57"].name[4] = "minecraft:stone_brick_stairs"; t["57"].meta[4] = 5
+t["57"].x[5] = 2; t["57"].y[5] = 5; t["57"].name[5] = "minecraft:stone_brick_stairs"; t["57"].meta[5] = 5
+t["57"].x[6] = 2; t["57"].y[6] = 6; t["57"].name[6] = "minecraft:stone_brick_stairs"; t["57"].meta[6] = 5
+t["58"].x[1] = 1; t["58"].y[1] = 5; t["58"].name[1] = "minecraft:gold_block"; t["58"].meta[1] = 0
+t["83"].x[1] = 1; t["83"].y[1] = 2; t["83"].name[1] = "minecraft:stonebrick"; t["83"].meta[1] = 0
+t["83"].x[2] = 1; t["83"].y[2] = 8; t["83"].name[2] = "minecraft:stonebrick"; t["83"].meta[2] = 0
+t["84"].x[1] = 1; t["84"].y[1] = 2; t["84"].name[1] = "minecraft:cobblestone_wall"; t["84"].meta[1] = 0
+t["84"].x[2] = 1; t["84"].y[2] = 3; t["84"].name[2] = "minecraft:stonebrick"; t["84"].meta[2] = 0
+t["84"].x[3] = 1; t["84"].y[3] = 7; t["84"].name[3] = "minecraft:stonebrick"; t["84"].meta[3] = 0
+t["84"].x[4] = 1; t["84"].y[4] = 8; t["84"].name[4] = "minecraft:cobblestone_wall"; t["84"].meta[4] = 0
+t["84"].x[5] = 2; t["84"].y[5] = 3; t["84"].name[5] = "minecraft:stonebrick"; t["84"].meta[5] = 0
+t["84"].x[6] = 2; t["84"].y[6] = 7; t["84"].name[6] = "minecraft:stonebrick"; t["84"].meta[6] = 0
+t["85"].x[1] = 1; t["85"].y[1] = 3; t["85"].name[1] = "minecraft:cobblestone_wall"; t["85"].meta[1] = 0
+t["85"].x[2] = 1; t["85"].y[2] = 4; t["85"].name[2] = "minecraft:stonebrick"; t["85"].meta[2] = 2
+t["85"].x[3] = 1; t["85"].y[3] = 6; t["85"].name[3] = "minecraft:stonebrick"; t["85"].meta[3] = 0
+t["85"].x[4] = 1; t["85"].y[4] = 7; t["85"].name[4] = "minecraft:cobblestone_wall"; t["85"].meta[4] = 0
+t["85"].x[5] = 2; t["85"].y[5] = 3; t["85"].name[5] = "minecraft:cobblestone_wall"; t["85"].meta[5] = 0
+t["85"].x[6] = 2; t["85"].y[6] = 4; t["85"].name[6] = "minecraft:stonebrick"; t["85"].meta[6] = 0
+t["85"].x[7] = 2; t["85"].y[7] = 6; t["85"].name[7] = "minecraft:stonebrick"; t["85"].meta[7] = 0
+t["85"].x[8] = 2; t["85"].y[8] = 7; t["85"].name[8] = "minecraft:cobblestone_wall"; t["85"].meta[8] = 0
+t["85"].x[9] = 3; t["85"].y[9] = 4; t["85"].name[9] = "minecraft:stonebrick"; t["85"].meta[9] = 0
+t["85"].x[10] = 3; t["85"].y[10] = 6; t["85"].name[10] = "minecraft:stonebrick"; t["85"].meta[10] = 0
+t["86"].x[1] = 1; t["86"].y[1] = 4; t["86"].name[1] = "minecraft:cobblestone_wall"; t["86"].meta[1] = 0
+t["86"].x[2] = 1; t["86"].y[2] = 5; t["86"].name[2] = "minecraft:stonebrick"; t["86"].meta[2] = 2
+t["86"].x[3] = 1; t["86"].y[3] = 6; t["86"].name[3] = "minecraft:cobblestone_wall"; t["86"].meta[3] = 0
+t["86"].x[4] = 2; t["86"].y[4] = 4; t["86"].name[4] = "minecraft:cobblestone_wall"; t["86"].meta[4] = 0
+t["86"].x[5] = 2; t["86"].y[5] = 5; t["86"].name[5] = "minecraft:stonebrick"; t["86"].meta[5] = 2
+t["86"].x[6] = 2; t["86"].y[6] = 6; t["86"].name[6] = "minecraft:cobblestone_wall"; t["86"].meta[6] = 0
+t["86"].x[7] = 3; t["86"].y[7] = 4; t["86"].name[7] = "minecraft:cobblestone_wall"; t["86"].meta[7] = 0
+t["86"].x[8] = 3; t["86"].y[8] = 5; t["86"].name[8] = "minecraft:stonebrick"; t["86"].meta[8] = 0
+t["86"].x[9] = 3; t["86"].y[9] = 6; t["86"].name[9] = "minecraft:cobblestone_wall"; t["86"].meta[9] = 0
+t["86"].x[10] = 4; t["86"].y[10] = 5; t["86"].name[10] = "minecraft:stonebrick"; t["86"].meta[10] = 0
+t["87"].x[1] = 1; t["87"].y[1] = 5; t["87"].name[1] = "minecraft:cobblestone_wall"; t["87"].meta[1] = 0
+t["87"].x[2] = 2; t["87"].y[2] = 5; t["87"].name[2] = "minecraft:cobblestone_wall"; t["87"].meta[2] = 0
+t["87"].x[3] = 3; t["87"].y[3] = 5; t["87"].name[3] = "minecraft:cobblestone_wall"; t["87"].meta[3] = 0
+t["87"].x[4] = 4; t["87"].y[4] = 5; t["87"].name[4] = "minecraft:cobblestone_wall"; t["87"].meta[4] = 0
+return t
+end
+return castle_library
